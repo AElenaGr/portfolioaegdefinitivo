@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/cv-styles.css" />
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/flor.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/flor.png" />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Andra Elena Grumeza | Web Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1><strong>Andra Elena Grumeza</strong></h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">Sobre mí</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Proyectos</a></li>
+        <li><a href="#cv" class="nav-link">Currículum</a></li>
+        <li>
+          <a href="#contacto" class="nav-link" onclick="toggleContacto()">
+            Contacto
+          </a>
+        </li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <div class="foto-sobre">
+      <section class="hero" id="about">
+       
+
+        <img
+        src="yo2.jpg"
+        alt="Tu Imagen"
+        style="width: 20%; height: 30%"
+      />
+      </section>
+
+      <!-- More about -->
+      <section class="more-about">
+        <h2>Sobre mi</h2>
+        <p>
+          ¡Hola! Soy Andra, una apasionada Front-End Developer con un año de
+          experiencia y un amor constante por la creación de experiencias web
+          cautivadoras. Desde el inicio de mi carrera, he dedicado mi energía y
+          habilidades a transformar conceptos creativos en interfaces visuales y
+          funcionales que dejan una impresión duradera. Mi enfoque se centra en
+          el dominio de tecnologías esenciales como HTML5, CSS3 y JavaScript, y
+          he trabajado con frameworks populares como React y Angular.
+        </p>
+
+        <p>
+          A lo largo de mi año de experiencia, he demostrado una capacidad
+          innata para aprender rápidamente y abordar desafíos con creatividad y
+          eficacia. Lo que me distingue es mi compromiso constante con la
+          mejora. Siempre estoy buscando maneras de ampliar mis conocimientos y
+          mantenerme actualizada en las últimas tendencias del desarrollo web.
+          Mi amor por la optimización de la experiencia del usuario se refleja
+          en mi atención meticulosa a los detalles y mi capacidad para crear
+          interfaces intuitivas y amigables.
+        </p>
+
+        <p>
+          Además de mis habilidades técnicas, me enorgullece mi capacidad para
+          trabajar en equipo y comunicarme de manera efectiva. Creo firmemente
+          que la colaboración es clave para el éxito de cualquier proyecto, y
+          disfruto trabajando en entornos dinámicos y multifuncionales. Este
+          portfolio no solo es un vistazo a mi trabajo, sino también a mi viaje
+          y pasión por el desarrollo web. Estoy emocionada por la oportunidad de
+          contribuir a proyectos desafiantes y seguir creciendo como Front-End
+          Developer. ¡Bienvenido a mi mundo digital!
+        </p>
+      </section>
+    </div>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="icons/icons8-bootstrap.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="icons/icons8-react-native.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="icons/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Proyectos</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="images/mapaisla.png"
+            alt="mapaisla"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Mapa Jardin de la Isla</h3>
+          <p class="project-details"></p>
+          <a
+            href="https://aelenagr.github.io/mapaherculesmio/"
+            target="_blank"
+            class="project-link"
+            >Ver</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="images/hercules.png"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Fuente de Hércules o de Hidra</h3>
+          <p class="project-details"></p>
+          <a
+            href="https://aelenagr.github.io/fuenteherculesandraterminado/"
+            target="_blank"
+            class="project-link"
+            >Ver</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="images/qr.png"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Editor QR</h3>
+          <p class="project-details"></p>
+          <a
+            href="https://aelenagr.github.io/AndraTabsBuenoBueno-/"
+            target="_blank"
+            class="project-link"
+            >Ver</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <div id="cv">
+      <section class="cv-section">
+        <h2>Currículum</h2>
+        <button id="verCurriculum">
+          <img src="images/ver.png" alt="" />
+        </button>
+      </section>
+    </div>
+
+    <!-- Contacto  -->
+    <div class="contacto" id="contacto">
+      <h2><img src="images/sobre.png" alt="" /></h2>
+      <!-- Div que se mostrará/ocultará -->
+      <div id="contactoDiv">
+        <p>
+          Correo: <a href="mailto:aelena1295@gmail.com">aelena1295@gmail.com</a>
+        </p>
+      </div>
+      <!-- Scroll to top -->
+      <i class="scroll-up" id="scroll-up">
+        <img
+          src="icons/icons8-upward-arrow.gif"
+          class="socicon up-arrow"
+          alt=""
+        />
+      </i>
+    </div>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a
+        href="https://www.linkedin.com/in/andra-elena-grumeza-224339131/"
+        target="_blank"
+      >
+        <img
+          src="icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          class="socicon"
+        />
+      </a>
+      <a href="https://github.com/AElenaGr" target="_blank">
+        <img
+          src="icons/icons8-github.gif"
+          alt="Github"
+          class="socicon"
+        />
+      </a>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2024</p>
+      <p class="copy">
+        Hecho con &#x2661; por
+        <a href="" target="_blank">AEG</a>
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

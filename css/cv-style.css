@@ -1,0 +1,399 @@
+/* Fuente de Google */
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+body {
+  margin: 0;
+  
+}
+
+.container_16 {
+  max-width: 860px;
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+
+.toggle-button {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+
+
+.nombre{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(119, 20, 119);
+  font-size: 3rem;
+}
+
+.puesto {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2rem; /* Tamaño de letra base */
+}
+
+/* Puedes ajustar estos estilos según tus necesidades */
+.puesto.small {
+  font-size: 0.8rem;
+}
+
+.puesto.large {
+  font-size: 1.2rem;
+}
+
+
+
+
+.container_16 img{
+  size: 80px;
+  border-radius: 40em;
+}
+
+/* Media query para ajustar a pantallas más pequeñas */
+@media only screen and (max-width: 768px) {
+  .fotoyo {
+    /* Estilos específicos para pantallas más pequeñas aquí */
+
+    /* Centrar en la parte superior y en el centro */
+    position: fixed;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+
+
+.grid_8,
+.grid_16 {
+  display: inline;
+  float: left;
+  position: relative;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.container_16 .grid_8 {
+  width: 45.0%;
+  margin-right: 30px;
+}
+
+.container_16 .grid_16 {
+  width: 98.0%;
+}
+
+/**********
+/* Header
+**********/
+
+header {
+  background: white;
+  border:solid 20px rgb(174, 93, 251); 
+  border-bottom: 1px solid #848484;
+  padding: 19px 0;
+  overflow: hidden;
+  border-radius: 10em;
+}
+
+header figure {
+  float: left;
+}
+
+header figure img {
+  
+  border: solid #fff;
+  height: 150px; /* Ajuste de altura para la nueva foto */
+  width: 150px; /* Ajuste de ancho para la nueva foto */
+  position: relative;
+}
+
+header hgroup {
+  float: right;
+  text-align: center;
+}
+
+header hgroup h1 {
+  color: #fff;
+  font: 400 40px oswald, sans-serif;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, .3);
+}
+
+header hgroup h2 {
+  color: #fff;
+  font-style: italic;
+  font: 400 20px oswald, sans-serif;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, .3);
+}
+
+#cv {
+  width: 45px;
+  height: 55px;
+  -ms-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+  box-shadow: 1px 1px 1px #888888;
+}
+
+/***************
+/* Main section
+***************/
+
+p {
+  font: 400 14px oswald, sans-serif;
+}
+
+section[role=main] {
+  padding: 21px 0;
+  overflow: hidden;
+}
+
+section[role=main] > div {
+  margin-top: 63px;
+}
+
+section[role=main] h3 {
+  border-bottom: 1px solid #BDBDBD;
+  padding: 0 0 20px 60px;
+  margin-top: 0px;
+  position: relative;
+  font: 400 20px oswald, sans-serif;
+}
+
+.icon {
+  display: block;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: -10px;
+  width: 50px;
+}
+
+.experiences ul,
+.training ul {
+  padding: 0px;
+}
+
+section[role=main] h4 {
+  margin-bottom: 0px;
+}
+
+section[role=main] h4 strong {
+  color: #147393;
+  font-weight: normal;
+  font: 400 17px oswald, sans-serif;
+}
+
+.experiences li,
+.training li {
+  margin-bottom: 35px;
+  list-style: none;
+}
+
+/**************
+/* Knowledge 
+***************/
+
+.knowledge .values {
+  padding: 0px;
+}
+
+.knowledge .values li {
+  margin-bottom: 21px;
+  position: relative;
+  list-style: none;
+  font: 400 14px oswald, sans-serif;
+}
+
+.grid_8 ul {
+  padding: 15px;
+}
+
+.grid_8 ul li {
+  font: 400 15px oswald, sans-serif;
+  margin-bottom: 3px;
+  list-style: none;
+}
+
+.grid_8 .information li:before,
+.grid_8 .contact li:before {
+  content: '\2022';
+  font: 400 15px oswald, sans-serif;
+  margin-bottom: 3px;
+  display: block;
+  position: relative;
+  max-width: 0;
+  max-height: 0;
+  left: -15px;
+  top: 0;
+  color: #33a4c9;
+  font-size: 20px;
+}
+
+
+.other-courses{
+  margin-bottom: 3em;
+}
+
+.grid_16 .site {
+  background-position: 0 -2px;
+  color: #848484;
+  font: 400 15px oswald, sans-serif;
+}
+
+.date {
+  background-position: 0 -22px;
+  color: #999;
+  font: 400 15px oswald, sans-serif;
+}
+
+.phone {
+  background-position: 0 -40px;
+}
+
+.mail {
+  background-position: 0 -58px;
+}
+
+.blog {
+  background-position: 0 -80px;
+}
+
+.socialmedia {}
+
+.social {
+  width: 40px;
+  height: 40px;
+  margin: 10px 38px 25px 38px;
+}
+
+.formation1 {
+  float: left;
+}
+
+.formation2 {
+  float: right;
+}
+#printButton {
+  position: fixed;
+  bottom: 20px;
+  left: 20px; /* Cambiado a la izquierda */
+  background-color: none;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* PRINT BUTTON  */
+
+
+#printIcon {
+  background-image: url('ruta_del_icono_de_impresora.png'); /* Ajusta la ruta del icono */
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+#printButton:hover {
+  background-color: none; /* Cambiado para eliminar el fondo en el hover */
+}
+
+@media print {
+  /* Ocultar el botón de imprimir en la versión impresa */
+  #printButton {
+    display: none;
+  }
+}
+
+
+
+
+
+/**************
+/* Animaciones
+***************/
+
+.fadeInDown {
+  
+  -webkit-animation: fadeInDown 4s;
+  animation: fadeInDown 4s;
+}
+
+.fadeInUp {
+  -webkit-animation: fadeInUp 4s;
+  animation: fadeInUp 4s;
+}
+
+.fadeInUp2 {
+  -webkit-animation: fadeInUp2 3.7s;
+  animation: fadeInUp2 3.7s;
+}
+
+.fadeInLeft {
+  -webkit-animation: fadeInLeft 4s;
+  animation: fadeInLeft 4s;
+}
+
+.fadeInRight {
+  -webkit-animation: fadeInRight 4s;
+  animation: fadeInRight 4s;
+}
+
+.appear {
+  -webkit-animation: appear 6s;
+  animation: appear 6s;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+}
+  
+
+  #printIcon {
+    background-image: url('ruta_del_icono_de_impresora.png'); /* Ajusta la ruta del icono */
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+
+
+    #printButton:hover {
+      background-color: #147393;
+    }
+
+    @media print {
+      /* Ocultar el botón de imprimir en la versión impresa */
+      #printButtonContainer {
+        display: none;
+      }
+    }
